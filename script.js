@@ -9,7 +9,7 @@ function palindromHandler(){
          addValue = addValue + userName[i]
          if(addValue == userName){
             isSearch = true
-            
+            break
          }
     }
 
